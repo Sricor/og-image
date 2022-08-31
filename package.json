@@ -1,21 +1,20 @@
 {
-  "name": "og.maximeheckel.com",
+  "name": "og-image",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Maxime <heckelmaxime@gmail.com>",
+  "author": "Sricor",
   "license": "MIT",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "postbuild": "next-on-netlify",
+    "dev": "cross-env NODE_OPTIONS='--openssl-legacy-provider' next dev",
+    "build": "cross-env NODE_OPTIONS='--openssl-legacy-provider' next build",
     "start": "next start"
   },
   "dependencies": {
     "@babel/core": "^7.12.10",
     "@emotion/babel-preset-css-prop": "^11.0.0",
     "@emotion/react": "^11.1.4",
+    "cross-env": "^7.0.3",
     "next": "^10.0.6",
-    "next-on-netlify": "^2.7.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   }

@@ -123,7 +123,7 @@ const PrinterComponent = () => {
               fontWeight: 600,
             }}
           >
-            @MaximeHeckel
+            @Sricor
           </span>
         </div>
       </div>
